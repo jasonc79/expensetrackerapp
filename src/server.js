@@ -3,7 +3,6 @@ import dotenv from "dotenv";
 import express from 'express';
 import authRouter from "./routers/auth.js";
 import indexRouter from "./routers/index.js";
-// const uri = "mongodb+srv://jcheung379:Uymeuxw8jrivZ1cZ@expensedata.ynwss.mongodb.net/?retryWrites=true&w=majority&appName=expensedata";
 dotenv.config()
 
 import mongoose from "mongoose";
