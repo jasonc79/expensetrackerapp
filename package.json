@@ -1,0 +1,28 @@
+{
+  "name": "expensetrackerapp",
+  "version": "1.0.0",
+  "description": "Create an expense tracker app with auth with the aim of using mongoDB to store the data, the homepage is a dashboard of all the expenses plus a total of income",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/App.js",
+    "client": "cd client && npm start",
+    "server": "nodemon src/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.3"
+  }
+}
